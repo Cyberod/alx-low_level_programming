@@ -13,7 +13,6 @@ int main(void)
 
 	puts(string);
 
-	puts("\"Programming is like building a mutilingual puzzle\"");
 
 	return (0);
 }
