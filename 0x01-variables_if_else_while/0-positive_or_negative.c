@@ -4,10 +4,8 @@
 /**
  * main - Entry point
  *
- * Description: Print positive or negative
- *
- * Return: 0 Always (Success)
- */ 
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
