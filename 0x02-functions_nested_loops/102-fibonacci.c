@@ -20,7 +20,7 @@ int main(void)
 		}
 		else
 		{
-			printf("%ld ", j);
+			printf("%ld\n", j);
 		}
 		l = j + k;
 		j = k;
