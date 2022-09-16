@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - program that prints either number
@@ -9,7 +10,7 @@ int main(void)
 {
 	int n = 0;
 
-	while (n++ < 99)
+	while (n++ < 100)
 	{
 		if ((n % 3 == 0) && (n % 5 == 0))
 		{
@@ -28,5 +29,5 @@ int main(void)
 			printf("%d ", n);
 		}
 	}
-	printf('\n');
+	putchar('\n');
 }
