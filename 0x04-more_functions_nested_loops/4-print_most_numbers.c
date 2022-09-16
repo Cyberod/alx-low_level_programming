@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_most_numbers -> prints numbers from 0 to 9,
@@ -15,7 +16,7 @@ void print_most_numbers(void)
 		{
 			continue;
 		}
-		_putchar(x);
+		putchar(x);
 	}
-	_putchar('10');
+	putchar('10');
 }
