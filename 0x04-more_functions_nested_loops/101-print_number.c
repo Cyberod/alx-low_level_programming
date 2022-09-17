@@ -9,29 +9,16 @@
 
 void print_number(int n)
 {
-	if (n / 10 != 0)
-	{
-		print_number(n / 10);
-		if (n > 0)
-		{
-			putchar(n % 10 + '0');
-		}
-		else
-		{
-			putchar(-n % 10 + '0');
-		}
-	}
-	else if ((n / 10 == 0) && (n % 10 != 0) && (n > 0))
-	{
-		putchar(n % 10 + '0');
-	}
-	else if ((n / 10 == 0) && (n % 10 != 0) && (n <= 0))
+	unsigned int d = n;
+
+	if (n < 0)
 	{
 		putchar('-');
-		putchar(-n % 10 + '0');
+		d = -d;
 	}
-	else if (n / 10 == 0)
+	if ((d / 10) > 0)
 	{
-		putchar(n % 10 + '0');
+		print_number(d / 10);
 	}
+	putchar ((d % 10) + '0');
 }
