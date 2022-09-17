@@ -28,7 +28,12 @@ int main(void)
 		{
 			printf("%d ", n);
 		}
+		if (n == 100)
+		{
+			continue;
+		}
+		printf(" ")
 	}
-	 putchar('\n');
-	 return (0);
+	 printf("\n");
+return (0);
 }
