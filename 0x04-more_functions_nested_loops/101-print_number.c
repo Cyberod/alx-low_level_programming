@@ -21,4 +21,5 @@ void print_number(int n)
 		print_number(d / 10);
 	}
 	putchar ((d % 10) + '0');
+	
 }
