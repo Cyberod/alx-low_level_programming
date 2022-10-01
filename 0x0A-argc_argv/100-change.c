@@ -1,36 +1,37 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - Print the name of the program
+ * main - Print the minimum amount of coins to make a change
+ * for an amount of money
  * @argc: Count arguments
  * @argv: Arguments
  * Return: Always 0 (Success)
  */
 int main(int argc, char *argv[])
 {
-	int num, j, result = 0;
-	int coins[] = {25, 10, 5, 2, 1};
+	int cents, ncoins = 0;
 
-	if (arg != 2)
+	if (argc == 1 || arg > 2)
 	{
-		printf("%s\n", "Error");
+		printf("Error\n");
 		return (1);
 	}
+	cents = atoi(argv[1]);
 
-	num = atoi(argv[1]); /*convert str to int*/
-	if (num < 0)
+	while (cents > 0)
 	{
-		printf("0\n");
-		return (0);
+		if (cents >= 25)
+			cents -= 25;
+		else if (cents >= 10)
+			cents -= 10;
+		else if (cents >= 5)
+			cents -= 5;
+		else if (cents >= 2)
+			cents -= 2;
+		else if (cents >= 1)
+			cents -= 1;
+		ncoins += 1;
 	}
-	for (j = 0; j < 5 && num >= 0; j++)
-	{
-		while (num >= coins[j])
-		{
-			num -= coins[j];
-			result++;
-		}
-	}
-	printf("%d\n", result);
+	printf("%d\n", ncoins);
 	return (0);
 }
