@@ -1,8 +1,8 @@
 #include "variadic_functions.h"
 
 /**
- * sum_them_all -> adds num
- * @n: parameter
+ * sum_them_all - adds num
+ * @n: param
  * Return: int
  */
 
