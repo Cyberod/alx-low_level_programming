@@ -3,14 +3,14 @@ Taking the learning journey alot further on the concepts of singly linked list. 
 
 The journey has been tough and enjoyable cause each concept push you alot further down the rope.
 
-Prerequisite
-User defined data type struct
+<h3>Prerequisite</h3>
+<ul>User defined data type struct
 Understanding of pointers
 Dynamic memory allocation
-malloc
-free
+  malloc
+  free<
 Undesrtanding of Functions
-Pass by value
-Pass by reference
-Return type of a function
-etc.
+  Pass by value
+  Pass by reference
+  Return type of a function
+ etc.</ul>
