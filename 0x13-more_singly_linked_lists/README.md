@@ -8,7 +8,7 @@ The journey has been tough and enjoyable cause each concept push you alot furthe
 Understanding of pointers
 Dynamic memory allocation
   malloc
-  free<
+  free
 Undesrtanding of Functions
   Pass by value
   Pass by reference
