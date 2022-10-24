@@ -6,11 +6,11 @@ The journey has been tough and enjoyable cause each concept push you alot furthe
 <h3>Prerequisite</h3>
 <ul>User defined data type struct
 Understanding of pointers
-Dynamic memory allocation
+Dynamic memory allocation</ul>
   malloc
   free
 Undesrtanding of Functions
   Pass by value
   Pass by reference
   Return type of a function
- etc.</ul>
+ etc.
