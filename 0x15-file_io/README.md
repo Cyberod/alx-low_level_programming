@@ -8,7 +8,7 @@
 </ul>
 <ul>
   <dd>O_WRONLY</dd>
-  `<dd>O_RDONLY</dd>
+  <dd>O_RDONLY</dd>
   <dd>O_RDWR</dd>
   <dd>O_APPEND</dd>
   <dd>O_TRUNC</dd>
